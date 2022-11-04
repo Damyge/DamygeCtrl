@@ -1,0 +1,34 @@
+{
+    "[markdown]": {
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": false,
+        "editor.minimap.enabled": false
+    },
+    "frontMatter.taxonomy.contentTypes": [
+        {
+            "name": "default",
+            "pageBundle": false,
+            "fields": [
+                {
+                    "title": "title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "date",
+                    "name": "date",
+                    "type": "datetime"
+                },
+                {
+                    "title": "author",
+                    "name": "author",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

@@ -29,7 +29,7 @@ languages:
 
     params:
       logo:
-        logoText: Terminal
+        logoText: Mod's Spot
         logoHomeLink: /
 
     menu:
