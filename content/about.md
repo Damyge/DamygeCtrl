@@ -2,6 +2,7 @@
 title = "About"
 date = "2022-11-04T00:09:26.019Z"
 author = "ModExploit"
+hideComments = true
 +++
 
 # Hi there
