@@ -17,6 +17,8 @@ params:
   # center theme with default width
   centerTheme: false
 
+
+
 languages:
   en:
     languageName: English
@@ -25,7 +27,8 @@ languages:
     keywords: ''
     menuMore: Show more
     readMore: Read more
-    readOtherPosts: Read other posts
+    readOtherPosts: Other Posts
+    commentSection: Comments
 
     params:
       logo:
@@ -37,3 +40,13 @@ languages:
       - identifier: about
         name: About
         url: /about
+      - identifier: credits
+        name: Credits
+        url: /credits
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

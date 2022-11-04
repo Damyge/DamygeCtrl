@@ -29,6 +29,8 @@
   {{ end }}
   {{ partial "cover.html" . }}
 
+  <hr>
+
   {{ if (.Params.Toc | default .Site.Params.Toc) }}
     <div class="table-of-contents">
       <h2>
@@ -47,11 +49,14 @@
   </div>
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
+    <br>
     {{ partial "posts_pagination.html" . }}
   {{ end }}
 
   {{ if not (.Params.hideComments | default false) }}
+    <br>
     {{ partial "comments.html" . }}
+    <br><hr>
   {{ end }}
 </article>
 {{ end }}

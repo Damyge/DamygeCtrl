@@ -246,6 +246,7 @@ th {
 }
 
 ul,
+
 ol {
   margin-left: 22px;
   padding: 0;
@@ -300,7 +301,12 @@ mark {
   padding: 40px;
   max-width: 864px;
   min-height: 100vh;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 
   &.full,
   &.center {
@@ -322,6 +328,7 @@ mark {
 }
 
 .content {
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
 
