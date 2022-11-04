@@ -301,8 +301,8 @@ mark {
   padding: 40px;
   max-width: 864px;
   min-height: 100vh;
-  position: absolute;
-  top:0;
+
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -328,7 +328,7 @@ mark {
 }
 
 .content {
-  margin-top: -50px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
 
