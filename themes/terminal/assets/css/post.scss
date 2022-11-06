@@ -1,10 +1,15 @@
 .index-content {
-  margin-top: 10px;
+  margin-top: 45px;
+
+  @media ($phone) {
+  margin-top: 30px;
+  }
+  
 }
 
 .framed {
   border: 1px solid $accent;
-  padding: 10px;
+  padding: 15px;
 
   *:first-child {
     margin-top: 0;
@@ -13,16 +18,26 @@
   *:last-child {
     margin-bottom: 0;
   }
+
 }
 
 .posts {
+
+  @media ($phone) {
+  margin-top: -10px;
+  }
+
+  margin-top: -10px;
   width: 100%;
+
+
+
 }
 
 .post {
   width: 100%;
   text-align: left;
-  margin: 10px auto;
+  margin-top: 0px;
   padding: 10px 0;
 
   &:not(:last-of-type) {
@@ -95,6 +110,10 @@
       
     }
   }
+}
+
+.post-title {
+  color: rgb(224, 226, 226);
 }
 
 .post--regulation {

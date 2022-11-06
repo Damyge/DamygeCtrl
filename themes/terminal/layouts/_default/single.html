@@ -48,9 +48,16 @@
     {{- end -}}
   </div>
 
+  {{ if not (.Params.hideShares | default false) }}
+    <br>
+    {{ partial "shares.html" . }}
+    <br>
+  {{ end }}
+
   {{ if eq .Type $.Site.Params.contentTypeName }}
     <br>
     {{ partial "posts_pagination.html" . }}
+    <br>
   {{ end }}
 
   {{ if not (.Params.hideComments | default false) }}

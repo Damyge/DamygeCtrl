@@ -328,7 +328,12 @@ mark {
 }
 
 .content {
-  margin-top: 0px;
+  
+  @media ($phone) {
+  margin-top: -15px;
+  }
+  
+  margin-top: -70px;
   display: flex;
   flex-direction: column;
 

@@ -47,12 +47,13 @@
 .button {
   background: rgb(224, 226, 226);
   position: relative;
-  display: inline-flex;
+  display: block;
+  text-align: center;
   flex: 1;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0;
   cursor: pointer;
   appearance: none;
@@ -63,12 +64,20 @@
   }
 
   a {
-    display: flex;
+    display: block;
     padding: 8px 16px;
     text-decoration: none;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: revert;
+    color:#081216;
     overflow: hidden;
+  }
+
+  a:active {
+
+    color:#081216;
+    
   }
 
   &__text {

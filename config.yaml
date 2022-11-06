@@ -9,7 +9,7 @@ params:
   # ["orange", "blue", "red", "green", "pink"]
   themeColor: red
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems: 3
+  showMenuItems: 10
   # show selector to switch language
   showLanguageSelector: false
   # set theme to full screen width
@@ -29,6 +29,7 @@ languages:
     readMore: Read more
     readOtherPosts: Other Posts
     commentSection: Comments
+    shareSection: Share
 
     params:
       logo:
