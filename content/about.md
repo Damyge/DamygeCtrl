@@ -11,7 +11,7 @@ hideShares = true
 My name is Dylan Ierley aka ModExploit. I'm a cybersecurity student in my sophomore year. This website is a place for me to post blogs, tutorials, and media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:
 
 [Email](mailto:contactmodexploit@gmail.com)
-[Discord](discordapp.com/users/987613249484750861)
+[Discord](https://discordapp.com/users/987613249484750861)
 [LinkedIn](https://www.linkedin.com/in/dylan-ierley-28a9aa24b/)
 [Twitter](https://twitter.com/modexploit)
 [Instagram](https://www.instagram.com/modexploit/)
