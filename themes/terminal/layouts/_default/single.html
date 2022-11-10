@@ -57,9 +57,11 @@
   {{ if eq .Type $.Site.Params.contentTypeName }}
     <br>
     {{ partial "posts_pagination.html" . }}
+    <br>
   {{ end }}
 
   {{ if not (.Params.hideComments | default false) }}
+    <br>
     {{ partial "comments.html" . }}
     <br><hr>
   {{ end }}
