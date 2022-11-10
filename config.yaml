@@ -47,6 +47,9 @@ languages:
       - identifier: credits
         name: Credits
         url: /credits
+      - identifier: rss
+        name: RSS
+        url: /index.xml
 
 
 
