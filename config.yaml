@@ -18,6 +18,8 @@ params:
   centerTheme: false
   # favicon 
   favicon: /favicon.ico
+  # reading time estimates
+  readingTime: true
 
 
 languages:
