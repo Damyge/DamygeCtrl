@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mod&#39;s Spot</title>
-    <link>https://www.modsspot.com/</link>
-    <description>Recent content on Mod&#39;s Spot</description>
+    <title>Posts on Mod&#39;s Spot</title>
+    <link>https://www.modsspot.com/posts/</link>
+    <description>Recent content in Posts on Mod&#39;s Spot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Nov 2022 23:13:03 +0000</lastBuildDate><atom:link href="https://www.modsspot.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2022 23:13:03 +0000</lastBuildDate><atom:link href="https://www.modsspot.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First CTF</title>
       <link>https://www.modsspot.com/posts/my-first-ctf/</link>
@@ -37,49 +37,6 @@ The Job Arcane Security and Grand University would be taking the CTF live at 09:
 &lt;p&gt;We closed our laptops with trembling hands and made our escape. We left our command post (aka my dorm room) and made our way on foot through our college campus to the nearest ice cream place, where we celebrated our victory.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;If you got this far, thank you for reading. I had to keep details vague for this CTF because I know it is being reused, but expect future posts to go more in-depth on the tech side of things. Have a great rest of your day!&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.modsspot.com/about/</link>
-      <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
-      
-      <guid>https://www.modsspot.com/about/</guid>
-      <description>Hi there! My name is Dylan Ierley aka ModExploit. I&amp;rsquo;m a cybersecurity student in my sophomore year. This website is a place for me to post blogs, tutorials, and media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:
-Email Discord LinkedIn Twitter Instagram
-I hope you find this site useful and entertaining, cheers.</description>
-      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there!&lt;/h1&gt;
-&lt;p&gt;My name is Dylan Ierley aka ModExploit. I&amp;rsquo;m a cybersecurity student in my sophomore year. This website is a place for me to post blogs, tutorials, and media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:contactmodexploit@gmail.com&#34;&gt;Email&lt;/a&gt;
-&lt;a href=&#34;https://discordapp.com/users/987613249484750861&#34;&gt;Discord&lt;/a&gt;
-&lt;a href=&#34;https://www.linkedin.com/in/dylan-ierley-28a9aa24b/&#34;&gt;LinkedIn&lt;/a&gt;
-&lt;a href=&#34;https://twitter.com/modexploit&#34;&gt;Twitter&lt;/a&gt;
-&lt;a href=&#34;https://www.instagram.com/modexploit/&#34;&gt;Instagram&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I hope you find this site useful and entertaining, cheers.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Credits</title>
-      <link>https://www.modsspot.com/credits/</link>
-      <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
-      
-      <guid>https://www.modsspot.com/credits/</guid>
-      <description>This website is all possible thanks to the help of the following tools, services, and individuals:
-Powered by Hugo
-Themed with Terminal
-Hosted on GitHub Pages
-Comments via Giscus
-Errors from ModExploit
-View this site&amp;rsquo;s source code at github.com/ModExploit/ModExploit.github.io</description>
-      <content>&lt;p&gt;This website is all possible thanks to the help of the following tools, services, and individuals:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Themed with &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal&#34;&gt;&lt;strong&gt;Terminal&lt;/strong&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comments via &lt;a href=&#34;https://giscus.app/&#34;&gt;&lt;strong&gt;Giscus&lt;/strong&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Errors from &lt;a href=&#34;https://github.com/ModExploit&#34;&gt;&lt;strong&gt;ModExploit&lt;/strong&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;View this site&amp;rsquo;s source code at &lt;a href=&#34;https://github.com/ModExploit/ModExploit.github.io&#34;&gt;github.com/ModExploit/ModExploit.github.io&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     

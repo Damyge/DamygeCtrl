@@ -29,12 +29,11 @@
 {{- end }}
 
 <!-- Icons -->
-{{ if isset $.Site.Params "favicon" }}
-  <link rel="shortcut icon" href="{{ $.Site.Params.favicon | absURL }}">
-{{ else }}
-  <link rel="shortcut icon" href="{{ printf "img/theme-colors/%s.png" (or .Params.color $.Site.Params.ThemeColor | default "orange") | absURL }}">
-  <link rel="apple-touch-icon" href="{{ printf "img/theme-colors/%s.png" (or .Params.color $.Site.Params.ThemeColor | default "orange") | absURL }}">
-{{ end }}
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />

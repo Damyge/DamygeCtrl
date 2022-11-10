@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.modsspot.com/</loc>
+    <lastmod>2022-11-09T23:13:03+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.modsspot.com/posts/my-first-ctf/</loc>
+    <lastmod>2022-11-09T23:13:03+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://www.modsspot.com/posts/</loc>
+    <lastmod>2022-11-09T23:13:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modsspot.com/about/</loc>
+    <lastmod>2022-11-04T00:09:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modsspot.com/credits/</loc>
+    <lastmod>2022-11-04T00:09:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modsspot.com/posts/hello-world/</loc>
+    <lastmod>2022-11-03T23:37:30+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modsspot.com/categories/</loc>
+  </url><url>
+    <loc>https://www.modsspot.com/tags/</loc>
   </url>
 </urlset>

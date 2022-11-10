@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>My First CTF :: Mod&#39;s Spot</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A cyber newbie describes his first CTF… heist movie style!" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://www.modsspot.com/posts/my-first-ctf/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/style.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://www.modsspot.com/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="My First CTF">
+<meta property="og:description" content="A cyber newbie describes his first CTF… heist movie style!" />
+<meta property="og:url" content="https://www.modsspot.com/posts/my-first-ctf/" />
+<meta property="og:site_name" content="Mod&#39;s Spot" />
+
+  <meta property="og:image" content="https://www.modsspot.com/img/my-first-ctf.jpg">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-11-09 23:13:03 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "edfsnjfn69");
+</script>
+
+</head>
+<body class="red">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Mod&#39;s Spot
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu hidden-on-mobile">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/credits">Credits</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/credits">Credits</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://www.modsspot.com/posts/my-first-ctf/">My First CTF</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2022-11-09 ::
+        
+      </time>
+    
+    
+      <span class="post-author">ModExploit</span>
+    
+    
+  </div>
+
+  
+  
+  <img src="https://www.modsspot.com/img/my-first-ctf.jpg"
+    class="post-cover"
+    alt="My First CTF"
+    title="Cover Image" />
+
+
+  <hr>
+
+  
+
+  <div class="post-content"><div>
+        <p><em>Right to left: Red, Me, Mark.</em></p>
+<br>
+<p>This is the tale of my first Capture The Flag (CTF) competition. Instead of a boring write-up, I’m telling this story heist style!</p>
+<h1 id="the-job">The Job<a href="#the-job" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Arcane Security and Grand University would be taking the CTF live at 09:00 in 9 days. The target would be a website, and I would have exactly 30 hours to get in, get root, and get the flag before the web server running it went down forever. On top of that, I had competition.</p>
+<h1 id="the-crew">The Crew<a href="#the-crew" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>It was going to be a tall order to do this on my own. As a beginner, I wasn&rsquo;t sure if I had what it took. But when I saw another newbie cybersecurity club member sign up, the inklings of a plan started to form. When I walked over and asked Red to team up with me he agreed. I wasn&rsquo;t sure we&rsquo;d get higher than last place, but we were both going work hard and try our best.</p>
+<h1 id="the-plan">The Plan<a href="#the-plan" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>We didn&rsquo;t have much experience, but we did have a little time. I knew that it&rsquo;d be nearly impossible to practice breaking into websites because there were too many unknowns. I had to count on figuring out how to get in once the competition started. But I also knew we&rsquo;d need to take control of the server running the website once we were in, so I took a gamble. We dedicated all of our time before the competition to practicing privilege escalation. We just had to hope my gambit would pay off and we would be ready when the day came.</p>
+<h1 id="the-suprise">The Suprise<a href="#the-suprise" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>It came, alright, along with an unexpected surprise. Just an hour before the competition began, Red told me that another cybersecurity club member wanted to join us. I didn&rsquo;t know him, but I didn&rsquo;t see any problem so we brought Mark on board just minutes before the CTF started.</p>
+<h1 id="the-entry">The Entry<a href="#the-entry" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>The minute it started, we frantically started trying to learn everything we could about the website, prodding it for any weaknesses. On the outside, it looked like a regular blog, but we needed to find out what was like on the inside. We started making good progress, and eventually, we took control of the website! With that, we took the lead! Until&hellip;</p>
+<h1 id="the-disaster">The Disaster<a href="#the-disaster" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>We made a major mistake. We were messing with things we didn&rsquo;t understand and paid the price. The website went down, and so did the computer running it. I frantically contacted the organizers, and after a tense 15 minutes, they managed to bring it back online. Then we hit another roadblock: college classes. As I sat in class for the next two hours, I watched the scoreboard and our competitors inch slowly closer to our score. When we got out of classes, we all rushed back to my dorm and set up our command post.</p>
+<h1 id="the-finale">The Finale<a href="#the-finale" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Not long after setting up, we made our breakthrough. We used our control of the web app to get into the server computer running it. Then, in rapid succession, we took control of every single user account on the system until we captured the most powerful user of all, root. We used root to capture the flag, and with that, we won the competition with 20 hours to spare.</p>
+<h1 id="the-getaway">The Getaway<a href="#the-getaway" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>We closed our laptops with trembling hands and made our escape. We left our command post (aka my dorm room) and made our way on foot through our college campus to the nearest ice cream place, where we celebrated our victory.</p>
+<br>
+<p>If you got this far, thank you for reading. I had to keep details vague for this CTF because I know it is being reused, but expect future posts to go more in-depth on the tech side of things. Have a great rest of your day!</p>
+
+      </div></div>
+
+  
+    <br>
+    <div class="shares">
+
+<div class="shares__title">
+    <span class="shares__title-h">Share</span>
+
+<hr /><br>
+
+</div>
+
+
+
+
+
+
+<div id="sharing">
+
+<div class="shares__buttons">
+
+
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=My%20First%20CTF&amp;url=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=My%20First%20CTF&amp;body=%0Dhttps%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f%0D" target="_self" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f&amp;title=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f&amp;summary=A%20cyber%20newbie%20describes%20his%20first%20CTF%e2%80%a6%20heist%20movie%20style%21&amp;source=www.modsspot.com" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+        <path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
+    </svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f&amp;resubmit=true&amp;title=My%20First%20CTF" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.modsspot.com%2fposts%2fmy-first-ctf%2f&amp;t=My%20First%20CTF" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill-rule="evenodd" d="M128 256c70.692 0 128-57.308 128-128C256 57.308 198.692 0 128 0 57.308 0 0 57.308 0 128c0 70.692 57.308 128 128 128zm-9.06-113.686L75 60h20.08l25.85 52.093c.397.927.86 1.888 1.39 2.883.53.994.995 2.02 1.393 3.08.265.4.463.764.596 1.095.13.334.262.63.395.898.662 1.325 1.26 2.618 1.79 3.877.53 1.26.993 2.42 1.39 3.48 1.06-2.254 2.22-4.673 3.48-7.258 1.26-2.585 2.552-5.27 3.877-8.052L161.49 60h18.69l-44.34 83.308v53.087h-16.9v-54.08z"/></svg>
+    </div>
+  </div>
+</a>
+
+</div>
+
+</div>
+
+
+    <br>
+  
+
+  
+    <br>
+    
+<div class="pagination">
+    
+     
+    <div class="pagination__title">
+        <span class="pagination__title-h">Other Posts</span>
+    <hr />
+
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="https://www.modsspot.com/posts/hello-world/">
+                <span class="button__text" style="color: rgb(10, 13, 16)">Hello World!</span>
+                <span class="button__icon" style="color: rgb(10, 13, 16)">→</span>
+            </a>
+        </span>
+        
+    </div>
+
+</div>
+
+    <br>
+  
+
+  
+    <br>
+    <div class="comments">
+
+<div class="comments__title">
+    <span class="comments__title-h">Comments</span>
+
+<hr /><br>
+
+</div>
+
+<script src="https://giscus.app/client.js"
+        data-repo="ModExploit/ModExploit.github.io"
+        data-repo-id="R_kgDOIXdgJg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOIXdgJs4CSXKj"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</div>
+    <br><hr>
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 ModExploit
+    
+
+    <div class="share"></div>
+
+  </div>
+
+  
+</footer>
+
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
