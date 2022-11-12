@@ -4,6 +4,7 @@ date = "2022-11-09T23:13:03.519Z"
 author = "ModExploit"
 cover = "img/my-first-ctf.jpg"
 description = "A cyber newbie describes his first CTF… heist movie style!"
+tags = ['ctf', 'movie', 'story']
 +++
 
 *Right to left: Red, Me, Mark.*
