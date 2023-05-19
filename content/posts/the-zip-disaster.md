@@ -8,10 +8,11 @@ tags = ['zip', 'google', 'web']
 +++
 
 Earlier this month, Google's new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of *mywebsite.com*, it can now be *mywebsite.zip*. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be **dangerous**. Let's see an example in action:
-
-![Demo: Family Photos](/static/img/google-zip/familyphotos.png)
-
-As you can see in this demo, Matt tells his family "Check out familyphotos.zip" and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).
+<br>
+<br>
+![Demo: Family Photos](/img/google-zip/familyphotos.png)
+<br>
+As you can see in this demo, Matt tells his family "Check out familyphotos[.]zip" and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).
 
 Let me break this down in more detail:
 1. Software that automatically converts the text of links into a clickable hyperlink will now convert any reference to a .zip filename like "test.zip" into a clickable hyperlink unless programmed specifically not to.
