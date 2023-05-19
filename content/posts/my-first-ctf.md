@@ -5,6 +5,7 @@ author = "ModExploit"
 cover = "img/my-first-ctf.jpg"
 description = "A cyber newbie describes his first CTF… heist movie style!"
 tags = ['ctf', 'movie', 'story']
+draft = true
 +++
 
 *Right to left: Red, Me, Mark.*
