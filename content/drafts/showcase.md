@@ -22,7 +22,7 @@ pre {
   background: #1a1a1d;
   padding: 20px;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   overflow: auto;
 
   @media (--phone) {

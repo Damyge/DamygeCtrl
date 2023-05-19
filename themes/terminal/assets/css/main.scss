@@ -11,9 +11,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
-  font-size: 1rem;
-  line-height: 1.54;
+  font-family: 'Helvetica', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 2;
   letter-spacing: -0.02em;
   background-color: $background;
   color: $color;
@@ -25,7 +25,7 @@ body {
   -webkit-text-size-adjust: 100%;
 
   @media ($phone) {
-    font-size: 1rem;
+    font-size: 1.0625rem;
   }
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: rgba(238, 237, 234, 0.875);
 
   /* Waiting for a better times... */
   /* &:has(code) {
@@ -128,7 +128,7 @@ figure {
 }
 
 code, kbd {
-  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace !important;
+  font-family: 'Helvetica', Helvetica Neue, Helvetica, Arial, sans-serif !important;
   font-feature-settings: normal;
   background: color-mod($accent) a(20%);
   color: $accent;
