@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mod&#39;s Spot</title>
-    <link>https://www.modsspot.com/</link>
+    <link>https://www.damygectrl.com/</link>
     <description>Recent content on Mod&#39;s Spot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Nov 2022 23:13:03 +0000</lastBuildDate><atom:link href="https://www.modsspot.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2022 23:13:03 +0000</lastBuildDate><atom:link href="https://www.damygectrl.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First CTF</title>
-      <link>https://www.modsspot.com/posts/my-first-ctf/</link>
+      <link>https://www.damygectrl.com/posts/my-first-ctf/</link>
       <pubDate>Wed, 09 Nov 2022 23:13:03 +0000</pubDate>
       
-      <guid>https://www.modsspot.com/posts/my-first-ctf/</guid>
+      <guid>https://www.damygectrl.com/posts/my-first-ctf/</guid>
       <description>Right to left: Red, Me, Mark.
 This is the tale of my first Capture The Flag (CTF) competition. Instead of a boring write-up, I’m telling this story heist style!
 The Job Arcane Security and Grand University would be taking the CTF live at 09:00 in 9 days. The target would be a website, and I would have exactly 30 hours to get in, get root, and get the flag before the web server running it went down forever.</description>
@@ -42,10 +42,10 @@ The Job Arcane Security and Grand University would be taking the CTF live at 09:
     
     <item>
       <title>About</title>
-      <link>https://www.modsspot.com/about/</link>
+      <link>https://www.damygectrl.com/about/</link>
       <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
       
-      <guid>https://www.modsspot.com/about/</guid>
+      <guid>https://www.damygectrl.com/about/</guid>
       <description>Hi there! My name is Dylan Ierley aka ModExploit. I&amp;rsquo;m a cybersecurity student in my sophomore year. This website is a place for me to post blogs, tutorials, and media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:
 Email Discord LinkedIn Twitter Instagram
 I hope you find this site useful and entertaining, cheers.</description>
@@ -62,10 +62,10 @@ I hope you find this site useful and entertaining, cheers.</description>
     
     <item>
       <title>Credits</title>
-      <link>https://www.modsspot.com/credits/</link>
+      <link>https://www.damygectrl.com/credits/</link>
       <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
       
-      <guid>https://www.modsspot.com/credits/</guid>
+      <guid>https://www.damygectrl.com/credits/</guid>
       <description>This website is all possible thanks to the help of the following tools, services, and individuals:
 Powered by Hugo
 Themed with Terminal
@@ -85,10 +85,10 @@ View this site&amp;rsquo;s source code at github.com/ModExploit/ModExploit.githu
     
     <item>
       <title>Hello World!</title>
-      <link>https://www.modsspot.com/posts/hello-world/</link>
+      <link>https://www.damygectrl.com/posts/hello-world/</link>
       <pubDate>Thu, 03 Nov 2022 23:37:30 +0000</pubDate>
       
-      <guid>https://www.modsspot.com/posts/hello-world/</guid>
+      <guid>https://www.damygectrl.com/posts/hello-world/</guid>
       <description>Hello World!
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
       <content>&lt;p&gt;Hello World!&lt;/p&gt;

@@ -1,4 +1,4 @@
-baseURL: https://www.modsspot.com/
+baseURL: https://www.damygectrl.com/
 languageCode: en-us
 theme: terminal
 paginate: 5
@@ -25,9 +25,9 @@ params:
 languages:
   en:
     languageName: English
-    title: Mod's Spot
-    subtitle: Mod's Spot is ModExploit's cybersecurity blog. Find writeups, stories, guides, and more.
-    keywords: Mod, Mods, Mod's, Mods Spot, Modspot, Mod Spot, Mod's Spot
+    title: Damyge Ctrl
+    subtitle: Damyge Ctrl is Damyge's cybersecurity blog. Find writeups, stories, guides, and more.
+    keywords: Damyge, Ctrl, Damage, Control, Damage Ctrl, Damage Control, DamygeCtrl, DamageControl
     menuMore: Show more
     readMore: Read more
     readOtherPosts: Other Posts
@@ -36,7 +36,7 @@ languages:
 
     params:
       logo:
-        logoText: Mod's Spot
+        logoText: Damyge Ctrl
         logoHomeLink: /
 
     menu:
