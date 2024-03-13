@@ -1,7 +1,7 @@
 +++
 title = "The .Zip Disaster"
 date = 2023-05-18T23:00:55.977Z
-author = "ModExploit"
+author = "Damyge"
 cover = "img/google-zip/gz-cover.png"
 description = "Comments on Google's new .zip domain and my PSA project"
 tags = ['zip', 'google', 'web']

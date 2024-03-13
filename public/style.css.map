@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "C:/Users/dylan/Development/ModExploit.github.io",
+	"sourceRoot": "C:/Users/dylan/Development/Damyge.github.io",
 	"sources": [
 		"css/base.scss",
 		"themes/terminal/assets/css/variables.scss",

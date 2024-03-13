@@ -1,7 +1,7 @@
 +++
 title = "Credits"
 date = "2022-11-04T00:09:26.019Z"
-author = "ModExploit"
+author = "Damyge"
 hideComments = false
 hideShares = true
 +++
@@ -16,6 +16,6 @@ This website is all possible thanks to the help of the following tools, services
   
 **Comments via [**Giscus**](https://giscus.app/)**
 
-**Errors from [**ModExploit**](https://github.com/ModExploit)**
+**Errors from [**Damyge**](https://github.com/Damyge)**
   
-View this site's source code at [github.com/ModExploit/ModExploit.github.io](https://github.com/ModExploit/ModExploit.github.io)
+View this site's source code at [github.com/Damyge/Damyge.github.io](https://github.com/Damyge/Damyge.github.io)
