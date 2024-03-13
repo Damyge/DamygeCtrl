@@ -1,1 +1,1 @@
-# Mods-Spot
+# Damyge CTRL Cybersecurity Blog
