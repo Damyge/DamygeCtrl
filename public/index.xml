@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Damyge Ctrl</title>
-    <link>https://damygectrl.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Damyge Ctrl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="https://damygectrl.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The .Zip Disaster</title>
-      <link>https://damygectrl.com/posts/the-zip-disaster/</link>
+      <link>http://localhost:1313/posts/the-zip-disaster/</link>
       <pubDate>Thu, 18 May 2023 23:00:55 +0000</pubDate>
       
-      <guid>https://damygectrl.com/posts/the-zip-disaster/</guid>
+      <guid>http://localhost:1313/posts/the-zip-disaster/</guid>
       <description>Earlier this month, Google&amp;rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of mywebsite.com, it can now be mywebsite.zip. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be dangerous. Let&amp;rsquo;s see an example in action: As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyphotos[.</description>
       <content>&lt;p&gt;Earlier this month, Google&amp;rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of &lt;em&gt;mywebsite.com&lt;/em&gt;, it can now be &lt;em&gt;mywebsite.zip&lt;/em&gt;. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be &lt;strong&gt;dangerous&lt;/strong&gt;. Let&amp;rsquo;s see an example in action:
 &lt;br&gt;
 &lt;br&gt;
-&lt;img alt=&#34;Demo: Family Photos&#34; src=&#34;https://damygectrl.com/img/google-zip/familyphotos.png&#34;&gt;
+&lt;img alt=&#34;Demo: Family Photos&#34; src=&#34;http://localhost:1313/img/google-zip/familyphotos.png&#34;&gt;
 &lt;br&gt;
 As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyphotos[.]zip&amp;rdquo; and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).&lt;/p&gt;
 &lt;p&gt;Let me break this down in more detail:&lt;/p&gt;
@@ -33,30 +33,28 @@ As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyph
     
     <item>
       <title>About</title>
-      <link>https://damygectrl.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
       
-      <guid>https://damygectrl.com/about/</guid>
-      <description>Hi there! My name is Dylan Ierley aka Damyge. I&amp;rsquo;m a cybersecurity student in my sophomore year. This website is a place for me to post writeups, stories, guides, and other media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:
-Email Discord LinkedIn Twitter Instagram
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi there! My name is Dylan Ierley aka Damyge. I&amp;rsquo;m a cybersecurity student in my junior year. This website is a place for me to post writeups, stories, guides, and other media related to cybersecurity and information technology. If you would like to get in contact me, send me an email at email[@]damygectrl[.]com or find me in one of the following places:
+LinkedIn Discord Twitter
 I hope you find this site useful and entertaining, cheers.</description>
       <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there!&lt;/h1&gt;
-&lt;p&gt;My name is Dylan Ierley aka Damyge. I&amp;rsquo;m a cybersecurity student in my sophomore year. This website is a place for me to post writeups, stories, guides, and other media related to cybersecurity and information technology. If you would like to get in contact me, I can be found in any of the following places:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:contactDamyge@gmail.com&#34;&gt;Email&lt;/a&gt;
+&lt;p&gt;My name is Dylan Ierley aka Damyge. I&amp;rsquo;m a cybersecurity student in my junior year. This website is a place for me to post writeups, stories, guides, and other media related to cybersecurity and information technology. If you would like to get in contact me, send me an email at &lt;u&gt;email[@]damygectrl[.]com&lt;/u&gt; or find me in one of the following places:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/dylan-ierley-28a9aa24b/&#34;&gt;LinkedIn&lt;/a&gt;
 &lt;a href=&#34;https://discordapp.com/users/987613249484750861&#34;&gt;Discord&lt;/a&gt;
-&lt;a href=&#34;https://www.linkedin.com/in/dylan-ierley-28a9aa24b/&#34;&gt;LinkedIn&lt;/a&gt;
-&lt;a href=&#34;https://twitter.com/Damyge&#34;&gt;Twitter&lt;/a&gt;
-&lt;a href=&#34;https://www.instagram.com/Damyge/&#34;&gt;Instagram&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://twitter.com/Damyge&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I hope you find this site useful and entertaining, cheers.&lt;/p&gt;
 </content>
     </item>
     
     <item>
       <title>Credits</title>
-      <link>https://damygectrl.com/credits/</link>
+      <link>http://localhost:1313/credits/</link>
       <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
       
-      <guid>https://damygectrl.com/credits/</guid>
+      <guid>http://localhost:1313/credits/</guid>
       <description>This website is all possible thanks to the help of the following tools, services, and individuals:
 Powered by Hugo
 Themed with Terminal
@@ -75,11 +73,53 @@ View this site&amp;rsquo;s source code at github.com/Damyge/Damyge.github.io</de
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Fri, 04 Nov 2022 00:09:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>This Privacy Policy descrwebes how your personal information is collected, used, and disclosed when you visit damygectrl.com (the &amp;ldquo;Site&amp;rdquo;) operated by Damyge (the &amp;ldquo;Author&amp;rdquo;).
+Information Collected I may collect the following information when you visit the Site:
+Log Data: your browser type, Internet Protocol (IP) address, time zone, referring/exit pages, and other information that your browser automatically transmits.
+Usage Data: Information about how you access and interact with the Site, such as the pages you visit, links you click, and the content you view.</description>
+      <content>&lt;p&gt;This Privacy Policy descrwebes how your personal information is collected, used, and disclosed when you visit &lt;a href=&#34;https://damygectrl.com&#34;&gt;damygectrl.com&lt;/a&gt; (the &amp;ldquo;Site&amp;rdquo;) operated by Damyge (the &amp;ldquo;Author&amp;rdquo;).&lt;/p&gt;
+&lt;h1 id=&#34;information-collected&#34;&gt;Information Collected&lt;/h1&gt;
+&lt;p&gt;I may collect the following information when you visit the Site:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Log Data&lt;/strong&gt;: your browser type, Internet Protocol (IP) address, time zone, referring/exit pages, and other information that your browser automatically transmits.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Usage Data&lt;/strong&gt;: Information about how you access and interact with the Site, such as the pages you visit, links you click, and the content you view. This data may be collected through cookies and other tracking technologies.&lt;/p&gt;
+&lt;h1 id=&#34;cookies-and-tracking-technologies&#34;&gt;Cookies and Tracking Technologies&lt;/h1&gt;
+&lt;p&gt;I may use cookies and other tracking technologies on the Site. Cookies are small data files that are stored on your device when you visit a website. They can be used to remember your preferences, track your activity on the Site, and understand how you interact with my content.&lt;/p&gt;
+&lt;p&gt;Here are some of the third-party services I may use that collect information through cookies:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Microsoft Clarity&lt;/strong&gt;: I use Microsoft Clarity to analyze how users interact with the Site. This allows me to improve the user experience and design of the Site. You can learn more about Microsoft Clarity&amp;rsquo;s privacy practices here: &lt;a href=&#34;https://privacy.microsoft.com/en-us/privacystatement&#34;&gt;https://privacy.microsoft.com/en-us/privacystatement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Additionally, while I use Microsoft Clarity to improve the Site, you can completely block their analytics script execution by using an ad-blocking extension such as &lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;uBlock Origin&lt;/a&gt; or by using a hardened browser such as &lt;a href=&#34;https://brave.com&#34;&gt;Brave&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I highly encourage you to use privacy tools to block tracking across all of your web usage.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;use-of-information&#34;&gt;Use of Information&lt;/h1&gt;
+&lt;p&gt;I may use the information I collect for the following purposes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To improve and maintain the Site&lt;/li&gt;
+&lt;li&gt;To personalize your experience on the Site&lt;/li&gt;
+&lt;li&gt;To understand how you use the Site&lt;/li&gt;
+&lt;li&gt;To develop new content&lt;/li&gt;
+&lt;li&gt;To market my products or services&lt;/li&gt;
+&lt;li&gt;To comply with legal and regulatory obligations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;disclosure-of-information&#34;&gt;Disclosure of Information&lt;/h1&gt;
+&lt;p&gt;I may disclose your information to third-party vendors and service providers who perform services on my behalf. HoIver, I will only disclose information that is necessary for them to perform their services.&lt;/p&gt;
+&lt;h1 id=&#34;security&#34;&gt;Security&lt;/h1&gt;
+&lt;p&gt;I take reasonable steps to protect the information you provide to me. However, nothing on the internet is completely secure. I cannot guarantee the security of your information.&lt;/p&gt;
+&lt;h1 id=&#34;changes-to-this-privacy-policy&#34;&gt;Changes to this Privacy Policy&lt;/h1&gt;
+&lt;p&gt;I may update this Privacy Policy from time to time. All updates will be viewable on this page.&lt;/p&gt;
+&lt;h1 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Privacy Policy, please contact me by email at &lt;u&gt;email[@]damygectrl[.]com&lt;/u&gt; or use the comments below.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Hello World!</title>
-      <link>https://damygectrl.com/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Thu, 03 Nov 2022 23:37:30 +0000</pubDate>
       
-      <guid>https://damygectrl.com/posts/hello-world/</guid>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>Hello World!
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
       <content>&lt;p&gt;Hello World!&lt;/p&gt;

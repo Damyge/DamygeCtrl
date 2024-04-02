@@ -4,8 +4,13 @@
       <div class="copyright copyright--user">
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{ else }}
+    <div class="grid-container">
       <div class="copyright">
-        <span>© {{ now.Year }} Damyge
+        <span>© {{ now.Year }} Damyge</span>
+        <a href="/privacy">
+          <span>Privacy Policy</span>
+        </a>
+    </div>
     {{ end }}
 
     <div class="share"></div>
