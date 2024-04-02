@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Damyge Ctrl</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://damygectrl.com/tags/</link>
     <description>Recent content in Tags on Damyge Ctrl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="https://damygectrl.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google</title>
-      <link>http://localhost:1313/tags/google/</link>
+      <link>https://damygectrl.com/tags/google/</link>
       <pubDate>Thu, 18 May 2023 23:00:55 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/google/</guid>
+      <guid>https://damygectrl.com/tags/google/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>https://damygectrl.com/tags/web/</link>
       <pubDate>Thu, 18 May 2023 23:00:55 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>https://damygectrl.com/tags/web/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Zip</title>
-      <link>http://localhost:1313/tags/zip/</link>
+      <link>https://damygectrl.com/tags/zip/</link>
       <pubDate>Thu, 18 May 2023 23:00:55 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/zip/</guid>
+      <guid>https://damygectrl.com/tags/zip/</guid>
       <description></description>
       <content></content>
     </item>
