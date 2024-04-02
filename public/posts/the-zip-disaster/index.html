@@ -2,14 +2,14 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Hello World! :: Damyge Ctrl</title>
+    <title>The .Zip Disaster :: Damyge Ctrl</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="hello-world.md" />
+<meta name="description" content="Comments on Google&#39;s new .zip domain and my PSA project" />
 <meta name="keywords" content="Damyge, Ctrl, Damage, Control, Damage Ctrl, Damage Control, DamygeCtrl, DamageControl" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="http://localhost:1313/posts/hello-world/" />
+<link rel="canonical" href="http://localhost:1313/posts/the-zip-disaster/" />
 
 
 
@@ -41,18 +41,18 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Hello World!">
-<meta property="og:description" content="hello-world.md" />
-<meta property="og:url" content="http://localhost:1313/posts/hello-world/" />
+<meta property="og:title" content="The .Zip Disaster">
+<meta property="og:description" content="Comments on Google&#39;s new .zip domain and my PSA project" />
+<meta property="og:url" content="http://localhost:1313/posts/the-zip-disaster/" />
 <meta property="og:site_name" content="Damyge Ctrl" />
 
-  <meta property="og:image" content="http://localhost:1313/img/hello-world.png">
+  <meta property="og:image" content="http://localhost:1313/img/google-zip/gz-cover.png">
 
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
 
-  <meta property="article:published_time" content="2022-11-03 23:37:30 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2023-05-18 23:00:55 &#43;0000 UTC" />
 
 
 
@@ -144,12 +144,12 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="http://localhost:1313/posts/hello-world/">Hello World!</a>
+    <a href="http://localhost:1313/posts/the-zip-disaster/">The .Zip Disaster</a>
   </h1>
   <div class="post-meta">
     
       <time class="post-date">
-        2022-11-03 ::
+        2023-05-18 ::
         
       </time>
     
@@ -157,15 +157,25 @@
       <span class="post-author">Damyge</span>
     
     
-      <span class="post-reading-time">:: 1 min read (71 words)</span>
+      <span class="post-reading-time">:: 2 min read (340 words)</span>
     
   </div>
 
   
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/zip/">zip</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/google/">google</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/web/">web</a>&nbsp;
+      
+    </span>
   
-  <img src="http://localhost:1313/img/hello-world.png"
+  
+  <img src="http://localhost:1313/img/google-zip/gz-cover.png"
     class="post-cover"
-    alt="Hello World!"
+    alt="The .Zip Disaster"
     title="Cover Image" />
 
 
@@ -174,8 +184,20 @@
   
 
   <div class="post-content"><div>
-        <p>Hello World!</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Earlier this month, Google&rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of <em>mywebsite.com</em>, it can now be <em>mywebsite.zip</em>. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be <strong>dangerous</strong>. Let&rsquo;s see an example in action:
+<br>
+<br>
+<img alt="Demo: Family Photos" src="/img/google-zip/familyphotos.png">
+<br>
+As you can see in this demo, Matt tells his family &ldquo;Check out familyphotos[.]zip&rdquo; and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).</p>
+<p>Let me break this down in more detail:</p>
+<ol>
+<li>Software that automatically converts the text of links into a clickable hyperlink will now convert any reference to a .zip filename like &ldquo;test.zip&rdquo; into a clickable hyperlink unless programmed specifically not to.</li>
+<li>Scammers and phishers can abuse this to create malicious .zip domains which download malware, enabling untechnical users to click what they think is a zip file (ex: test[.]zip) which downloads a file of the hostile actor&rsquo;s choice instead.</li>
+<li>Using this method, malicious actors can now host malware on domains of common filenames like &ldquo;backup.zip&rdquo; and then just wait for unknowing users to click on links pointing to what they thought were zips.</li>
+</ol>
+<p>How can we respond to this? There are two big takeaways. First, if you are a network admin, ban the entire .zip TLD from being accessed on your networks. If you are a regular user, do not visit .zip domains given they are now a wild west for hosting malware.</p>
+<p>Finally, if you found this post useful, <a href="https://www.linkedin.com/in/dylan-ierley-28a9aa24b/">please connect with me on LinkedIn</a>. I&rsquo;d love to expand my network and see that this resource is helping people.</p>
 
       </div></div>
 
@@ -200,7 +222,7 @@
 <div class="shares__buttons">
 
 
-<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg>
     </div>
@@ -208,7 +230,7 @@
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Hello%20World%21&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=The%20.Zip%20Disaster&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg>
     </div>
@@ -216,7 +238,7 @@
 </a>
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Hello%20World%21&amp;body=%0Dhttp%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f%0D" target="_self" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="mailto:?subject=The%20.Zip%20Disaster&amp;body=%0Dhttp%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f%0D" target="_self" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg>
     </div>
@@ -224,7 +246,7 @@
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f&amp;title=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f&amp;summary=hello-world.md&amp;source=www.damygectrl.com" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f&amp;title=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f&amp;summary=Comments%20on%20Google%27s%20new%20.zip%20domain%20and%20my%20PSA%20project&amp;source=www.damygectrl.com" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
         <path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
@@ -234,7 +256,7 @@
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f&amp;resubmit=true&amp;title=Hello%20World%21" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f&amp;resubmit=true&amp;title=The%20.Zip%20Disaster" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg>
     </div>
@@ -242,7 +264,7 @@
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fhello-world%2f&amp;t=Hello%20World%21" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fthe-zip-disaster%2f&amp;t=The%20.Zip%20Disaster" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill-rule="evenodd" d="M128 256c70.692 0 128-57.308 128-128C256 57.308 198.692 0 128 0 57.308 0 0 57.308 0 128c0 70.692 57.308 128 128 128zm-9.06-113.686L75 60h20.08l25.85 52.093c.397.927.86 1.888 1.39 2.883.53.994.995 2.02 1.393 3.08.265.4.463.764.596 1.095.13.334.262.63.395.898.662 1.325 1.26 2.618 1.79 3.877.53 1.26.993 2.42 1.39 3.48 1.06-2.254 2.22-4.673 3.48-7.258 1.26-2.585 2.552-5.27 3.877-8.052L161.49 60h18.69l-44.34 83.308v53.087h-16.9v-54.08z"/></svg>
     </div>
@@ -270,13 +292,13 @@
     </div>
     <div class="pagination__buttons">
         
-        <span class="button previous">
-            <a href="http://localhost:1313/posts/the-zip-disaster/">
-                <span class="button__icon" style="color: rgb(10, 13, 16)">←</span>
-                <span class="button__text" style="color: rgb(10, 13, 16)">The .Zip Disaster</span>
+        
+        <span class="button next">
+            <a href="http://localhost:1313/posts/hello-world/">
+                <span class="button__text" style="color: rgb(10, 13, 16)">Hello World!</span>
+                <span class="button__icon" style="color: rgb(10, 13, 16)">→</span>
             </a>
         </span>
-        
         
     </div>
 

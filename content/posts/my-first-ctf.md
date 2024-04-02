@@ -2,15 +2,11 @@
 title = "My First CTF"
 date = "2022-11-09T23:13:03.519Z"
 author = "Damyge"
-cover = "img/my-first-ctf.jpg"
+cover = "img/my-first-ctf.png"
 description = "A cyber newbie describes his first CTF… heist movie style!"
 tags = ['ctf', 'movie', 'story']
 draft = true
 +++
-
-*Right to left: Red, Me, Mark.*
-
-<br>
 
 This is the tale of my first Capture The Flag (CTF) competition. Instead of a boring write-up, I’m telling this story heist style!  
 

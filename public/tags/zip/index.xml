@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Damyge Ctrl</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Damyge Ctrl</description>
+    <title>Zip on Damyge Ctrl</title>
+    <link>http://localhost:1313/tags/zip/</link>
+    <description>Recent content in Zip on Damyge Ctrl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/zip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The .Zip Disaster</title>
       <link>http://localhost:1313/posts/the-zip-disaster/</link>
@@ -28,19 +28,6 @@ As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyph
 &lt;/ol&gt;
 &lt;p&gt;How can we respond to this? There are two big takeaways. First, if you are a network admin, ban the entire .zip TLD from being accessed on your networks. If you are a regular user, do not visit .zip domains given they are now a wild west for hosting malware.&lt;/p&gt;
 &lt;p&gt;Finally, if you found this post useful, &lt;a href=&#34;https://www.linkedin.com/in/dylan-ierley-28a9aa24b/&#34;&gt;please connect with me on LinkedIn&lt;/a&gt;. I&amp;rsquo;d love to expand my network and see that this resource is helping people.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 03 Nov 2022 23:37:30 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>Hello World!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-      <content>&lt;p&gt;Hello World!&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </content>
     </item>
     
