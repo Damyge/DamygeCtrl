@@ -2,6 +2,8 @@
 framed = true
 +++
 
+<div id="quote-box"> <br> </div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const quotes = fetch("quotes.md")
