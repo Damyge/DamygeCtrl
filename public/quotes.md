@@ -70,7 +70,7 @@ A good plan today is better than a perfect plan tomorrow.
 %
 A penny saved is ridiculous.
 %
-A u.f.o. closely encountered is no longer a u.f.o.
+A U.F.O. closely encountered is no longer a U.F.O.
 %
 According to the latest official figures, 43 percent of all statistics are worthless.
 %
