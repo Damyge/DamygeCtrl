@@ -11,7 +11,7 @@ framed = true
       .then(data => data.split("%").map(quote => "damyge@damygectrl:~$ fortune " + `<br>` + quote));
 
     quotes.then(quotesWithFortune => {
-      document.getElementById("quote-box").innerHTML = quotesWithFortune[Math.floor(Math.random() * quotesWithFortune.length)];
+      document.getElementById("quote-box").textContent = quotesWithFortune[Math.floor(Math.random() * quotesWithFortune.length)];
     });
   });
 </script>
