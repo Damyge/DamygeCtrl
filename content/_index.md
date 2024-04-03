@@ -2,7 +2,7 @@
 framed = true
 +++
 
-<div id="quote-box"> <br> </div>
+<div id="quote-box"> <br> </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
