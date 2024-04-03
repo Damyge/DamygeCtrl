@@ -170,8 +170,6 @@ Now and then an innocent man is sent to the legislature.
 %
 One picture is worth 128k words.
 %
-Only %d shopping days until Christmas
-%
 People really shouldn't spread gossip, but what else is it good for?
 %
 Preserve wildlife -- pickle a squirrel today!
