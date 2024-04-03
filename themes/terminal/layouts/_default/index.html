@@ -4,6 +4,7 @@
 
   {{ if .Content }}
     <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
+      <div id="quote-box"> <br> </div>
       {{ .Content }}
     </div>
   {{ end }}

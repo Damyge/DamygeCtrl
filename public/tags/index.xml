@@ -37,5 +37,35 @@
       <content></content>
     </item>
     
+    <item>
+      <title>Ctf</title>
+      <link>http://localhost:1313/tags/ctf/</link>
+      <pubDate>Wed, 09 Nov 2022 23:13:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ctf/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Heist</title>
+      <link>http://localhost:1313/tags/heist/</link>
+      <pubDate>Wed, 09 Nov 2022 23:13:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/heist/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Story</title>
+      <link>http://localhost:1313/tags/story/</link>
+      <pubDate>Wed, 09 Nov 2022 23:13:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/story/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>

@@ -95,7 +95,7 @@
 
     </div>
     
-      <div class="menu-trigger">menu</div>
+      <div class="menu-trigger">Menu</div>
     
   </div>
   
@@ -150,8 +150,18 @@
 
   
     <div class="index-content framed">
-      <p><a href="https://xkcd.com/621/">Except I don&rsquo;t drink or speak French</a></p>
+      <div id="quote-box"> <br> </div>
+      <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const quotes = fetch("quotes.md")
+      .then(response => response.text())
+      .then(data => data.split("%").map(quote => "damyge@damygectrl:~$ fortune " + `<br>` + quote));
 
+    quotes.then(quotesWithFortune => {
+      document.getElementById("quote-box").innerHTML = quotesWithFortune[Math.floor(Math.random() * quotesWithFortune.length)];
+    });
+  });
+</script>
     </div>
   
   <div class="posts">
@@ -209,6 +219,54 @@
         
           <div>
             <a class="read-more button" href="/posts/the-zip-disaster/">Read more →</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="http://localhost:1313/posts/my-first-ctf/">My First CTF</a>
+        </h1>
+
+        <div class="post-meta">
+          
+            <time class="post-date">
+              2022-11-09 ::
+            </time>
+          
+          
+            <span class="post-author">Damyge</span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="http://localhost:1313/tags/ctf/">ctf</a>&nbsp;
+            
+            #<a href="http://localhost:1313/tags/heist/">heist</a>&nbsp;
+            
+            #<a href="http://localhost:1313/tags/story/">story</a>&nbsp;
+            
+          </span>
+        
+
+        
+  <img src="http://localhost:1313/img/my-first-ctf.png"
+    class="post-cover"
+    alt="My First CTF"
+    title="Cover Image" />
+
+
+        <div class="post-content">
+          
+            A cyber newbie describes his first CTF… heist movie style!
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button" href="/posts/my-first-ctf/">Read more →</a>
           </div>
         
       </article>

@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Damyge Ctrl</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Damyge Ctrl</description>
+    <title>Heist on Damyge Ctrl</title>
+    <link>http://localhost:1313/tags/heist/</link>
+    <description>Recent content in Heist on Damyge Ctrl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:00:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The .Zip Disaster</title>
-      <link>http://localhost:1313/posts/the-zip-disaster/</link>
-      <pubDate>Thu, 18 May 2023 23:00:55 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/the-zip-disaster/</guid>
-      <description>Earlier this month, Google&amp;rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of mywebsite[.]com, it can now be mywebsite[.]zip. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be dangerous. Let&amp;rsquo;s see an example in action: As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyphotos[.</description>
-      <content>&lt;p&gt;Earlier this month, Google&amp;rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of &lt;em&gt;mywebsite[.]com&lt;/em&gt;, it can now be &lt;em&gt;mywebsite[.]zip&lt;/em&gt;. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be &lt;strong&gt;dangerous&lt;/strong&gt;. Let&amp;rsquo;s see an example in action:
-&lt;br&gt;
-&lt;br&gt;
-&lt;img alt=&#34;Demo: Family Photos&#34; src=&#34;http://localhost:1313/img/google-zip/familyphotos.png&#34;&gt;
-&lt;br&gt;
-As you can see in this demo, Matt tells his family &amp;ldquo;Check out familyphotos[.]zip&amp;rdquo; and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).&lt;/p&gt;
-&lt;p&gt;Let me break this down in more detail:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Software that automatically converts the text of links into a clickable hyperlink will now convert any reference to a .zip filename like &amp;ldquo;test[.]zip&amp;rdquo; into a clickable hyperlink unless programmed specifically not to.&lt;/li&gt;
-&lt;li&gt;Scammers and phishers can abuse this to create malicious .zip domains which download malware, enabling untechnical users to click what they think is a zip file (ex: test[.]zip) which downloads a file of the hostile actor&amp;rsquo;s choice instead.&lt;/li&gt;
-&lt;li&gt;Using this method, malicious actors can now host malware on domains of common filenames like &amp;ldquo;backup[.]zip&amp;rdquo; and then just wait for unknowing users to click on links pointing to what they thought were zips.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;How can we respond to this? There are two big takeaways. First, if you are a network admin, ban the entire .zip TLD from being accessed on your networks. If you are a regular user, do not visit .zip domains given they are now a wild west for hosting malware.&lt;/p&gt;
-&lt;p&gt;Finally, if you found this post useful, &lt;a href=&#34;https://www.linkedin.com/in/dylan-ierley-28a9aa24b/&#34;&gt;please connect with me on LinkedIn&lt;/a&gt;. I&amp;rsquo;d love to expand my network and see that this resource is helping people.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Wed, 09 Nov 2022 23:13:03 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/heist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First CTF</title>
       <link>http://localhost:1313/posts/my-first-ctf/</link>
@@ -58,19 +34,6 @@ The Job The North American Cyber Range Alliance and Grand University would be ta
 &lt;p&gt;We closed our laptops with trembling hands and made our escape. We left our command post (aka my dorm room) and made our way on foot through our college campus to the nearest ice cream place, where we celebrated our victory.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;If you got this far, thank you for reading. I had to keep details vague for this CTF because I know it is being reused, but expect future posts to go more in-depth on technical topics. Have a great rest of your day!&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 03 Nov 2022 23:37:30 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>Hello World!
-Welcome to my personal cybersecurity blog. Cool stuff coming soon!</description>
-      <content>&lt;p&gt;Hello World!&lt;/p&gt;
-&lt;p&gt;Welcome to my personal cybersecurity blog. Cool stuff coming soon!&lt;/p&gt;
 </content>
     </item>
     

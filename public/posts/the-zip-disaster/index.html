@@ -92,7 +92,7 @@
 
     </div>
     
-      <div class="menu-trigger">menu</div>
+      <div class="menu-trigger">Menu</div>
     
   </div>
   
@@ -184,7 +184,7 @@
   
 
   <div class="post-content"><div>
-        <p>Earlier this month, Google&rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of <em>mywebsite.com</em>, it can now be <em>mywebsite.zip</em>. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be <strong>dangerous</strong>. Let&rsquo;s see an example in action:
+        <p>Earlier this month, Google&rsquo;s new Top Level Domain (TLD) launched, allowing websites to now host on .zip addresses. Instead of <em>mywebsite[.]com</em>, it can now be <em>mywebsite[.]zip</em>. This can be a bit annoying because .zip is now both a TLD and one of the most common file types. But it can also be <strong>dangerous</strong>. Let&rsquo;s see an example in action:
 <br>
 <br>
 <img alt="Demo: Family Photos" src="/img/google-zip/familyphotos.png">
@@ -192,9 +192,9 @@
 As you can see in this demo, Matt tells his family &ldquo;Check out familyphotos[.]zip&rdquo; and the file name is already highlighted. If you did not understand that .zip is also a domain now, you would easily assume that clicking that button would allow you to access that zip file. However, When clicked, a HTTPS request is made to the domain https:\\familyphotos[.]zip and a zip file is downloaded without even opening a web page. This zip file can then contain anything the domain host wants it to (a text file in this case).</p>
 <p>Let me break this down in more detail:</p>
 <ol>
-<li>Software that automatically converts the text of links into a clickable hyperlink will now convert any reference to a .zip filename like &ldquo;test.zip&rdquo; into a clickable hyperlink unless programmed specifically not to.</li>
+<li>Software that automatically converts the text of links into a clickable hyperlink will now convert any reference to a .zip filename like &ldquo;test[.]zip&rdquo; into a clickable hyperlink unless programmed specifically not to.</li>
 <li>Scammers and phishers can abuse this to create malicious .zip domains which download malware, enabling untechnical users to click what they think is a zip file (ex: test[.]zip) which downloads a file of the hostile actor&rsquo;s choice instead.</li>
-<li>Using this method, malicious actors can now host malware on domains of common filenames like &ldquo;backup.zip&rdquo; and then just wait for unknowing users to click on links pointing to what they thought were zips.</li>
+<li>Using this method, malicious actors can now host malware on domains of common filenames like &ldquo;backup[.]zip&rdquo; and then just wait for unknowing users to click on links pointing to what they thought were zips.</li>
 </ol>
 <p>How can we respond to this? There are two big takeaways. First, if you are a network admin, ban the entire .zip TLD from being accessed on your networks. If you are a regular user, do not visit .zip domains given they are now a wild west for hosting malware.</p>
 <p>Finally, if you found this post useful, <a href="https://www.linkedin.com/in/dylan-ierley-28a9aa24b/">please connect with me on LinkedIn</a>. I&rsquo;d love to expand my network and see that this resource is helping people.</p>
@@ -294,8 +294,8 @@ As you can see in this demo, Matt tells his family &ldquo;Check out familyphotos
         
         
         <span class="button next">
-            <a href="http://localhost:1313/posts/hello-world/">
-                <span class="button__text" style="color: rgb(10, 13, 16)">Hello World!</span>
+            <a href="http://localhost:1313/posts/my-first-ctf/">
+                <span class="button__text" style="color: rgb(10, 13, 16)">My First CTF</span>
                 <span class="button__icon" style="color: rgb(10, 13, 16)">→</span>
             </a>
         </span>
@@ -346,8 +346,13 @@ As you can see in this demo, Matt tells his family &ldquo;Check out familyphotos
     <footer class="footer">
   <div class="footer__inner">
     
+    <div class="grid-container">
       <div class="copyright">
-        <span>© 2024 Damyge
+        <span>© 2024 Damyge</span>
+        <a href="/privacy">
+          <span>Privacy Policy</span>
+        </a>
+    </div>
     
 
     <div class="share"></div>

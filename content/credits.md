@@ -18,4 +18,4 @@ This website is all possible thanks to the help of the following tools, services
 
 **Errors from [**Damyge**](https://github.com/Damyge)**
   
-View this site's source code at [github.com/Damyge/Damyge.github.io](https://github.com/Damyge/Damyge.github.io)
+View this site's source code at [github.com/Damyge/DamygeCtrl](https://github.com/Damyge/DamygeCtrl)
